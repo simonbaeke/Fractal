@@ -1,6 +1,6 @@
 ﻿using Fractal;
 
-string fileName = "fractal - input.txt";
+string fileName = "../../../fractal - input.txt";
 string[] lines = File.ReadAllLines(fileName);
 
 Dictionary<string, string> regels = new Dictionary<string, string>();
