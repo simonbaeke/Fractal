@@ -48,11 +48,13 @@ namespace Fractal
 
             //Zet de deelpatronen om in in nieuw vierkant
             //Teller die 
-            for (int x = 0; x < dimDeelPatronen; x++) //
+            for (int x = 0; x < dimDeelPatronen; x++)//gaat de rijen af gevormd door de deelpatronen
             {
-                for (int j = 0; j < dimDeelpatroon; j++)
+                for (int j = 0; j < dimDeelpatroon; j++)//vult rijen binnen een deelpatroon
                 {
-                    for (int i = 0; i < dimDeelPatronen; i++) //herhalen tot sqrt regels.length
+                    for (int i = 0; i < dimDeelPatronen; i++)//vormt kolommen gevormd door de deelpatroon
+
+                        //herhalen tot sqrt regels.length
                     {
                         rijIndexDeelPatroon = i + dimDeelPatronen * x;
 
